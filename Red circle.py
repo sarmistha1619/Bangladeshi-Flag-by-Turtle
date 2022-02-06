@@ -1,0 +1,10 @@
+import turtle
+t = turtle.Turtle()
+t.color("red")
+wn = turtle.Screen()
+wn.bgcolor("Black")
+t.begin_fill()
+t.fillcolor("red")
+t.circle(100)
+t.end_fill()
+t.hideturtle()
